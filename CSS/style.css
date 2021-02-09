@@ -1,0 +1,88 @@
+
+body{
+    font-family: 'Coiny', cursive;
+
+}
+
+
+.headerset{
+    padding-top: 250px;
+    box-sizing:border-box
+    
+}
+
+.carousel-caption h2{
+font-size: 42px;
+}
+.carousel-item{
+    background-size:100% 100%;
+    background-attachment: fixed;
+    height : 660px;
+    width:100%;
+}
+.footer{
+    position:absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+/* .................ourservices............ */
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 500px;
+}
+
+.ourservices h1{
+font-size: 50px;
+} 
+
+.rowsetting{
+    margin: 80px 0px !important;
+}
+
+.imgsetting{
+    border-radius: 50% !important;
+    border-radius: 70;
+}
+
+
+
+/* ..........responsive............ */
+
+@media(min-width: 992px){
+    .ourservices{
+        padding: 100px 0px 60px;
+        height: 500px;  
+}
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+    .ourservices{
+        padding: 100px 0px 60px;
+        height: 600px;  
+}
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+    .ourservices{
+        padding: 100px 0px 60px;
+        height: 800px;  
+    }
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+    .ourservices{
+        padding: 100px 0px 60px;
+        height: 1000px;
+    }
+ }
+@media (max-width: 479px){
+
+    html{
+        font-size: 8px;
+    }
+            
+ }
